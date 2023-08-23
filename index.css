@@ -1,0 +1,26 @@
+html {
+  background-color: rgb(169, 157, 150);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-title {
+  color: red;
+}
+
+.text-title {
+  color: rgb(59, 101, 215);
+}
+
+.pic {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-form {
+  display: flex;
+  justify-content: right;
+  text-decoration: none;
+}

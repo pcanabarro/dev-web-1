@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./form.css">
+  <script src="form.js"></script>
+  <title>Form</title>
+</head>
+
+<body>
+  <form class="form">
+    <div class="form-div">
+      <input class="itens-form" type="text" placeholder="Título do Formulário">
+
+      <input class="itens-form" type="text" placeholder="Cabeçalho do Formulário">
+
+      <input class="itens-form" type="text" placeholder="Nome">
+
+      <input class="itens-form" type="text" placeholder="Usuário">
+
+      <input class="itens-form" type="password" placeholder="Senha">
+
+      <input class="itens-form" type="email" placeholder="E-mail">
+
+      <input class="itens-form" type="number" placeholder="Telefone">
+
+      <input class="itens-form" type="date" id="born-date" name="born-date">
+      <div id="age-display"></div>
+
+      <input class="itens-form" type="number" placeholder="Peso (Kg)">
+
+      <select class="itens-form" id="blood-form" placeholder="Tipo Sanguineo">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="AB">AB</option>
+        <option value="O">O</option>
+      </select>
+
+      <select class="itens-form" id="rh-form" placeholder="Fator RH">
+        <option value="+">+</option>
+        <option value="-">-</option>
+      </select>
+
+      <div class="item-div">
+        <input class="itens-form" id="masc-opt" name="user-sex" type="radio" placeholder="Sexo" value="Masculino">
+        <label for="sex-form">Masculino</label>
+        <input class="itens-form" id="fem-opt" name="user-sex" type="radio" placeholder="Sexo" value="Feminino">
+        <label for="sex-form">Feminino</label>
+      </div>
+
+      <input class="itens-form" type="text" placeholder="Num. Documento">
+
+      <div class="checkbox-form">
+        <div class="item-div">
+          <input class="check-form" id="descanso-quest" type="checkbox">
+          <label for="sex-form">Estar descansado (ter dormido pelo menos 6 horas nas últimas 24 horas)</label>
+        </div>
+        <div class="item-div">
+          <input class="check-form" id="alimentado-quest" type="checkbox">
+          <label for="sex-form">Estar alimentado, evitando alimentos gordurosos</label>
+        </div>
+        <div class="item-div">
+          <input class="check-form" id="anemia-quest" type="checkbox">
+          <label for="sex-form">Não tem com anemia no teste realizado imediatamente antes da doação</label>
+        </div>
+        <div class="item-div">
+          <input class="check-form" id="hipertensao-quest" type="checkbox">
+          <label for="sex-form">Não tem com hipertensão ou hipotensão arterial no momento da doação</label>
+        </div>
+        <div class="item-div">
+          <input class="check-form" id="bat-card-quest" type="checkbox">
+          <label for="sex-form">Não está com aumento ou diminuição dos batimentos cardíacos no momento da doação</label>
+        </div>
+        <div class="item-div">
+          <input class="check-form" id="febre-quest" type="checkbox">
+          <label for="sex-form">Não está com febre no dia da doação</label>
+        </div>
+      </div>
+
+      <button class="itens-form" type="submit">Enviar</button>
+    </div>
+  </form>
+</body>
+
+</html>
